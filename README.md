@@ -173,7 +173,7 @@ file name: test_cconector.py
 import mysql.connector  
 print("hello SQL")
 ```
-Example : <a  href="https://github.com/sandiprathore/SQL/blob/mysql_with_python/mysql_with_python/Test_connector.py" target="_blank">Ref. and Example</a>
+
 
 #### Output
 ```sh
@@ -209,7 +209,6 @@ mydb = mysql.connector.connect(
 mycursor = mydb.cursor()
 mycursor.execute("CREATE DATABASE DB_name ")
 ```
-Example : <a  href="https://github.com/sandiprathore/SQL/blob/mysql_with_python/mysql_with_python/Create_DB.py" target="_blank">Ref. and Example</a>
 <p  align="right">(<a href="#top">back to top</a>)</p>
 <div id="Connect-to-your-database"></div>
 
@@ -230,7 +229,6 @@ mycursor.execute("SHOW DATABASES")
 for x in mycursor:
   print(x)
 ```
-Example : <a  href="https://github.com/sandiprathore/SQL/blob/mysql_with_python/mysql_with_python/Show_DB.py" target="_blank">Ref. and Example</a>
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
@@ -262,7 +260,7 @@ mycursor.execute(q)
 for x in mycursor:
   print(x)
 ```
-Example : <a  href="https://github.com/sandiprathore/SQL/blob/mysql_with_python/mysql_with_python/Create_table.py" target="_blank">Ref. and Example</a>
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
@@ -288,7 +286,7 @@ mycursor.execute(sql, val)
 mydb.commit()
 print(mycursor.rowcount, "record inserted.")
 ```
-Example : <a  href="https://github.com/sandiprathore/SQL/blob/mysql_with_python/mysql_with_python/Insert_single_row.py" target="_blank">Ref. and Example</a>
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
@@ -318,7 +316,7 @@ mycursor.executemany(sql, val)
 mydb.commit()
 print(mycursor.rowcount, "was inserted.")
 ```
-Example : <a  href="https://github.com/sandiprathore/SQL/blob/mysql_with_python/mysql_with_python/Insert_mulltiple_rows.py" target="_blank">Ref. and Example</a>
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
@@ -342,7 +340,7 @@ myresult = mycursor.fetchall()
 for x in myresult:
   print(x)
 ```
-Example : <a  href="https://github.com/sandiprathore/SQL/blob/mysql_with_python/mysql_with_python/Print_table.py" target="_blank">Ref. and Example</a>
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
@@ -367,7 +365,7 @@ mydb.commit()
 print(mycursor.rowcount, "record(s) deleted")
 
 ```
-Example : <a  href="https://github.com/sandiprathore/SQL/blob/mysql_with_python/mysql_with_python/Delete_All_Rows.py" target="_blank">Ref. and Example</a>
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
@@ -391,7 +389,7 @@ myresult = mycursor.fetchall()
 for x in myresult:
   print(x)   
 ```
-Example : <a  href="https://github.com/sandiprathore/SQL/blob/mysql_with_python/mysql_with_python/Select_data.py" target="_blank">Ref. and Example</a>
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
@@ -417,7 +415,7 @@ myresult = mycursor.fetchall()
 for x in myresult:
   print(x)
 ```
-Example : <a  href="https://github.com/sandiprathore/SQL/blob/mysql_with_python/mysql_with_python/Select_column.py" target="_blank">Ref. and Example</a>
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
@@ -442,7 +440,7 @@ mycursor.execute("SELECT COUNT(*) FROM Table_name;")
 myresult = mycursor.fetchone()
 print(myresult)
 ```
-Example : <a  href="https://github.com/sandiprathore/SQL/blob/mysql_with_python/mysql_with_python/Cout_rows.py" target="_blank">Ref. and Example</a>
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- fetchone() Method -->
@@ -466,7 +464,7 @@ mycursor.execute("SELECT * FROM Table_name")
 myresult = mycursor.fetchone()
 print(myresult)
 ```
-Example : <a  href="https://github.com/sandiprathore/SQL/blob/mysql_with_python/mysql_with_python/Fetchone()_Method.py" target="_blank">Ref. and Example</a>
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- Select where  -->
@@ -492,7 +490,7 @@ myresult = mycursor.fetchall()
 for x in myresult:
   print(x)
 ```
-Example : <a  href="https://github.com/sandiprathore/SQL/blob/mysql_with_python/mysql_with_python/Select_where.py" target="_blank">Ref. and Example</a>
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
@@ -520,7 +518,7 @@ myresult = mycursor.fetchall()
 for x in myresult:
   print(x)
 ```
-Example : <a  href="https://github.com/sandiprathore/SQL/blob/mysql_with_python/mysql_with_python/LIKE_Operator.py" target="_blank">Ref. and Example</a>
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
@@ -549,7 +547,7 @@ myresult = mycursor.fetchall()
 for x in myresult:
   print(x)
 ```
-Example : <a  href="https://github.com/sandiprathore/SQL/blob/mysql_with_python/mysql_with_python/Order_by_shorting.py" target="_blank">Ref. and Example</a>
+
  <p align="right">(<a href="#top">back to top</a>)</p>
 
 
@@ -577,5 +575,5 @@ myresult = mycursor.fetchall()
 for x in myresult:
   print(x)
 ```
-Example : <a  href="https://github.com/sandiprathore/SQL/blob/mysql_with_python/mysql_with_python/Order_bt(DESC).py" target="_blank">Ref. and Example</a>
+
 <p align="right">(<a href="#top">back to top</a>)</p> 
